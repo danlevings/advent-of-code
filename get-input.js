@@ -2,9 +2,8 @@ const fs = require("fs");
 const http = require("https");
 const path = require("path");
 
-if (process.env.AOC_COOKIE === undefined) {
-  throw new Error(`Missing $AOC_COOKIE`);
-}
+process.env.AOC_COOKIE = ''
+ 
 
 const now = new Date();
 
