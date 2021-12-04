@@ -2,12 +2,12 @@ const {
   part1,
   part2,
   data,
-} = require("./day-02");
+} = require("./day-03");
 
-describe("Day 02", () => {
+describe("Day 03", () => {
   describe("Part 1", () => {
     it("works for test data", () => {
-      expect(part1(data("test"))).toBe(150);
+      expect(part1(data("test"))).toBe(198);
     });
 
     it("works for real data", () => {
@@ -17,7 +17,7 @@ describe("Day 02", () => {
 
   describe("Part 2", () => {
     it("works for test data", () => {
-      expect(part2(data("test"))).toBe(900);
+      expect(part2(data("test"))).toBe(230);
     });
 
     it("works for real data", () => {
